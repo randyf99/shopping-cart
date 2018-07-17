@@ -1,0 +1,24 @@
+
+ITEMS  CART => TAB (ITEMS VIEW)
+
+- Product name                                   price
+  product description                            ADD TO CART Button
+
+
+ITEM CART => TAB (CART VIEW)
+
+- Product name                                   price
+  product description                            - quantity +
+
+
+Components
+- App -> Top level component
+  - ItemPage **
+  - CartPage
+  - Item ->Item's Children *
+  - Nav **
+
+
+- Keep track of active tab **
+- Choose to render ItemPage or CartPage **
+

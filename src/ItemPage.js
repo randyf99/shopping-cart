@@ -8,7 +8,11 @@ const ItemPage = ({ items, onAddToCart }) => {
     <ul className="itempage-items">
       {items.map(item => (
         <li key={item.id} className="itempage-item">
-          <Item item={item} onAddToCart={() => onAddToCart(item)} />
+          <Item item={item}>
+            <button className="item-addToCart" onClick={() => onAddToCart(item)}>
+              Add To Cart
+            </button>
+          </Item>
         </li>
       ))}
     </ul>

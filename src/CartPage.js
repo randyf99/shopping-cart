@@ -32,7 +32,7 @@ function CartPage({ items, onAddOne, onRemoveOne, onRemoveAll }) {
         </li>
       ))}
       <li>
-        <button className="cartPage-removeAll" onClick={() => onRemoveAll(items)}>
+        <button className="cartPage-removeAll" onClick={() => onRemoveAll()}>
           Remove All
         </button>
       </li>

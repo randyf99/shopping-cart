@@ -11,7 +11,7 @@ class App extends Component {
     cart: []
   };
 
-  handleRemoveAll = items => {
+  handleRemoveAll = () => {
     this.setState({
       cart: []
     });
